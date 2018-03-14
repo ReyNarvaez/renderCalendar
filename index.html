@@ -30,11 +30,16 @@
 				    <input type="text" class="form-control" id="countryCode" placeholder="" required>
 			  	</div>		  
 
-			  	<button id="renderBtn" type="submit" class="btn btn-primary">render</button>
+			  	<button id="renderBtn" type="submit" class="btn btn-primary">Render</button>
 			</form>
 		</div>
 
-		<div id="calendarContainer" class="container" style="display: block">
+		<div id="calendarControls" class="container" style="display: none">
+			<button id="leftBtn" type="button" class="btn btn-primary"><</button>			
+			<button id="rightBtn" type="button" class="btn btn-primary">></button>
+		</div>
+
+		<div id="calendarContainer" class="container calendar" style="display: none">
 			
 				<span class="monthHeader">Month</span>
 

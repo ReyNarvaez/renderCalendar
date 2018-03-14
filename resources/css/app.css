@@ -1,5 +1,6 @@
 .monthHeader{
 	padding: 0px 45% 0px 45%;
+	font-weight: bold;
 }
 
 .invalidday{
@@ -20,4 +21,23 @@
 .holiday{
 
 	background-color: orange;	
+}
+
+#calendarControls{
+
+	padding: 20px 0px 0px 0px;
+}
+
+.calendar{
+
+	padding: 20px 0px 0px 0px;	
+}
+
+#leftBtn{
+
+	float: left;
+}
+#rightBtn{
+
+	float: right;
 }
