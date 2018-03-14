@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Render Calendar</title>
+	<head>
+		<title>Render Calendar</title>
 
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-	<script src="https://cdn.rawgit.com/kodie/moment-holiday/v1.2.0/moment-holiday.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css"/>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
-</head>
-<body>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+		<script src="https://cdn.rawgit.com/kodie/moment-holiday/v1.2.0/moment-holiday.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css"/>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+	</head>
+	<body>
 
-</body>
+		<div class="container-fluid">
+			
+			<form>
+		  		<div class="form-group">
+				    <label for="startDate">Start Date</label>
+				    <input type="text" class="form-control" id="startDate" placeholder="Select a Date">
+			  	</div>
+			  	<div class="form-group">
+				    <label for="numDays">Number of days</label>
+				    <input type="number" class="form-control" id="numDays" placeholder="">
+			  	</div>
+			  	<div class="form-group">
+				    <label for="countryCode">Country Code</label>
+				    <input type="text" class="form-control" id="countryCode" placeholder="">
+			  	</div>		  
+
+			  	<button type="submit" class="btn btn-primary">render</button>
+			</form>
+		</div>
+	</body>
+
+	
 </html>
