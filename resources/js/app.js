@@ -88,7 +88,7 @@ function renderCalendar(){
 				if(j == startDate.weekday() && (totalDays < numDays + 1) && currentMonth == startDate.format('MMMM')){
 
 					totalDays++;
-					
+
 					td.innerHTML = startDate.format("DD");
 
 					if(!startDate.isHoliday()){
@@ -152,12 +152,12 @@ jQ("#rightBtn").on("click",function(e){
 
 function resetCalendar(){
 
+	jQ("#calendarControls").hide();
+
 	for(var i = 0; i < numMonths; i++){
 
 		jQ("#calendar" + i).remove()
 	}
 
 	calendarIndex = 0;
-
-	jQ("#calendarControls").hide();
 }
