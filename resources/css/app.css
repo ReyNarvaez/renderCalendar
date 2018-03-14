@@ -23,6 +23,11 @@
 	background-color: orange;	
 }
 
+#formContainer{
+
+	padding: 20px 0px 0px 0px;	
+}
+
 #calendarControls{
 
 	padding: 20px 0px 0px 0px;
