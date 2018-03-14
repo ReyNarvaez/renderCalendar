@@ -1,3 +1,23 @@
 .monthHeader{
 	padding: 0px 45% 0px 45%;
 }
+
+.invalidday{
+
+	background-color: gray;
+}
+
+.weekday{
+
+	background-color: green;
+}
+
+.weekend{
+
+	background-color: yellow;
+}
+
+.holiday{
+
+	background-color: orange;	
+}
